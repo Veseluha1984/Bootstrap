@@ -1,3 +1,4 @@
+
 const gulp        = require('gulp');
 const browserSync = require('browser-sync');
 const sass        = require('gulp-sass')(require('sass'));
@@ -31,3 +32,5 @@ gulp.task('watch', function() {
 })
 
 gulp.task('default', gulp.parallel('watch', 'server', 'styles'));
+gulpfile.js
+gulpfile.js. На экране.
